@@ -1,0 +1,8 @@
+src-git packages https://github.com/coolsnowwolf/packages^bacc28256934c38d1a20d8982775b2a39be35fac
+src-git luci https://github.com/coolsnowwolf/luci^2a380a31c99bce8f3ceb22645abeb33f09299b2e
+src-git routing https://github.com/coolsnowwolf/routing^d374debb4d5c8dd6352fb7f72e74d5ff157dd34e
+src-git telephony https://git.openwrt.org/feed/telephony.git^0403af50b118a45dac2fd644a672936da1dbbcf3
+#src-git video https://github.com/openwrt/video.git
+#src-git targets https://github.com/openwrt/targets.git
+#src-git oldpackages http://git.openwrt.org/packages.git
+#src-link custom /usr/src/openwrt/custom-feed
