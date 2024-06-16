@@ -11,7 +11,7 @@ git checkout 6c4e5d7b4757f11da966ae9152d04f09ded35226
 ## Feed Conf
 
 ```
-cp feed.conf.default lede/feed.conf.default
+cp feeds.conf.default lede/feeds.conf.default
 ```
 
 ## MT7621-Xiaomi-4A
@@ -25,6 +25,7 @@ cp config.mt7621 lede/.config
 ## x86
 
 ```
+cp config-5.15 lede/target/linux/x86/64/config-5.15
 cp config.x86 lede/.config
 ```
 
@@ -46,6 +47,7 @@ rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip vim wg
 ```
 ./scripts/feeds update -a
 ./scripts/feeds install -a
+mkdir -p dl && cd dl && wget -c https://www.lysator.liu.se/~nisse/misc/argp-standalone-1.3.tar.gz
 make download -j8
 make V=s -j1
 # nohup make V=s -j1 >out.log 2>err.log &

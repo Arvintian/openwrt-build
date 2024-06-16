@@ -66,7 +66,7 @@ jansson4 - 2.13.1-2
 jq - 1.6-2
 jshn - 2021-11-04-c86a894e-2
 jsonfilter - 2018-02-04-c7e938d6-1
-kernel - 5.15.74-1-97e40c1182d69c77b4f45e9567066874
+kernel - 5.15.74-1-873330ddc9cba927aea5d1cbfdd10898
 kmod-8139cp - 5.15.74-1
 kmod-8139too - 5.15.74-1
 kmod-alx - 5.15.74-1
@@ -342,7 +342,6 @@ luci-lib-ip - git-22.289.58375-2a380a3-1
 luci-lib-jsonc - git-22.289.58375-2a380a3-1
 luci-lib-nixio - git-22.289.58375-2a380a3-1
 luci-mod-admin-full - git-22.289.58375-2a380a3-1
-luci-newapi - git-22.289.58375-2a380a3-1
 luci-proto-bonding - git-22.289.58375-2a380a3-1
 luci-proto-ipv6 - git-22.289.58375-2a380a3-1
 luci-proto-ppp - git-22.289.58375-2a380a3-1
